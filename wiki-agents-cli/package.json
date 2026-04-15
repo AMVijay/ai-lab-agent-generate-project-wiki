@@ -1,0 +1,27 @@
+{
+  "name": "wiki-agents",
+  "version": "1.0.0",
+  "description": "Install GitHub Copilot wiki agents into VS Code, or generate docs/ wiki files from the CLI via GitHub Models API",
+  "main": "bin/install.js",
+  "bin": {
+    "wiki-agents": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "agents/"
+  ],
+  "scripts": {
+    "test": "node bin/install.js --help"
+  },
+  "keywords": [
+    "copilot",
+    "agent",
+    "wiki",
+    "documentation",
+    "github-models"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}

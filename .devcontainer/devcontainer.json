@@ -1,0 +1,17 @@
+{
+    "name": "ai-agent-devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "postCreateCommand": "echo environment ready!",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extension": [
+                    "ms-azuretools.vscode-docker"
+                ]
+            }
+        }
+    }
+}
